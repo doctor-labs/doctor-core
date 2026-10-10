@@ -1,0 +1,12 @@
+[package]
+name = "doctor-core"
+version = "0.1.0"
+edition = "2021"
+description = "Shared doctor/1 contract types for the doctor-labs tools"
+license = "MIT"
+repository = "https://github.com/doctor-labs/doctor-core"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha2 = "0.10"
